@@ -11,6 +11,10 @@
 
   <name>microrpc</name>
 
+  <description>
+    A simple and efficient RPC library.
+  </description>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
