@@ -4,7 +4,7 @@
 
   <groupId>eu.toolchain.microrpc</groupId>
   <artifactId>microrpc</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>jar</packaging>
 
   <url>https://github.com/udoprog/microrpc-java</url>
