@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>microrpc-api</artifactId>
+  <packaging>jar</packaging>
+
+  <parent>
+    <groupId>eu.toolchain.microrpc</groupId>
+    <artifactId>microrpc-parent</artifactId>
+    <version>1.0.2-SNAPSHOT</version>
+    <relativePath>..</relativePath>
+  </parent>
+
+  <url>https://github.com/udoprog/microrpc-java</url>
+
+  <name>microrpc (api)</name>
+
+  <description>
+    A simple and efficient RPC library (API)
+  </description>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:git@github.com:udoprog/microrpc-java</connection>
+    <developerConnection>scm:git:git@github.com:udoprog/microrpc-java</developerConnection>
+    <url>https://github.com/udoprog/microrpc-java</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>udoprog</id>
+      <name>John-John Tedro</name>
+      <email>johnjohn.tedro@gmail.com</email>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>eu.toolchain.async</groupId>
+      <artifactId>tiny-async-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>eu.toolchain.serializer</groupId>
+      <artifactId>tiny-serializer-api</artifactId>
+    </dependency>
+  </dependencies>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+</project>
